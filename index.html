@@ -91,6 +91,42 @@ button:hover {
   font-size: 18px;
   line-height: 1.6;
 }
+    .values {
+  background: #f4f4f4;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.values h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.value {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.value h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.value p {
+  font-size: 16px;
+  line-height: 1.5;
+}
   </style>
 </head>
 
@@ -119,6 +155,31 @@ button:hover {
   <p>
     Our mission is to work for the complete abolition of abortion by proclaiming the truth, forming consciences, and advocating for equal protection under the law.
   </p>
+</section>
+  <section class="values">
+  <h2>What We Stand For</h2>
+
+  <div class="value-grid">
+    <div class="value">
+      <h3>Equal Dignity</h3>
+      <p>Every human being, from conception, possesses equal worth and value.</p>
+    </div>
+
+    <div class="value">
+      <h3>Equal Protection</h3>
+      <p>We advocate for laws that recognize and protect unborn children as persons.</p>
+    </div>
+
+    <div class="value">
+      <h3>Faithful Witness</h3>
+      <p>Our work is rooted in the teachings of the Catholic Church and the Gospel of Jesus Christ.</p>
+    </div>
+
+    <div class="value">
+      <h3>Justice & Mercy</h3>
+      <p>We seek justice for the unborn while extending compassion and support to mothers and families.</p>
+    </div>
+  </div>
 </section>
 </body>
 </html>
