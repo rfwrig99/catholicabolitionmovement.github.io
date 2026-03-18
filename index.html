@@ -111,7 +111,11 @@ button:hover {
   max-width: 1000px;
   margin: 0 auto;
 }
-
+@media (max-width: 800px) {
+  .value-grid {
+    grid-template-columns: 1fr;
+  }
+}
 .value {
   background: white;
   color: #222;
